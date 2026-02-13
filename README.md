@@ -13,7 +13,7 @@ Schema Enforcement: Standardized data types across all fields to prevent aggrega
 
 Normalization: Deconstructed the flat CSV structure into distinct Fact and Dimension tables to eliminate redundancy.
 
-Integrity Checks: Implemented duplicate removal on primary keys (ProductCode, CustomerName, Date) to guarantee one-to-many relationship validity.
+Integrity Checks: Implemented duplicate removal on primary keys (ProductCode, CustomerID,GeoID, Date) to guarantee one-to-many relationship validity.
 
 2. Dimensional Modeling
 Fact Table: Fact_Sales (Granularity: Order Line Level).
